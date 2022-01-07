@@ -17,8 +17,7 @@ int main()
   {
     if (a[i] >= a[i + 1])
     {
-      memo[i] = a[i + 1];
-      memo[i + 1] = a[i];
+      swap(a[i], a[i + 1]);
     }
     else
     {
